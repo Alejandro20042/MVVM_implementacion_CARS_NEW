@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MVVM_implementacion_CARS_NEW.Vistas.Pokemon.Listapokemon"
+             NavigationPage.HasNavigationBar="False">
+    <Grid RowDefinitions="60,*"
+          BackgroundColor="White">
+        <Label Text="POKEDEX"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontSize="40"
+               FontAttributes="Bold"
+               TextColor="#FD8298"/>
+        <CollectionView BackgroundColor="#E0E4E2"
+                        Grid.Row="1">
+            
+        </CollectionView>
+
+
+
+    </Grid>
+</ContentPage>
