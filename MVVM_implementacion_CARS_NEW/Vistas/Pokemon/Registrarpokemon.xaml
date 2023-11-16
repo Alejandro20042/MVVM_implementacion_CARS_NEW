@@ -7,8 +7,9 @@
     <Grid RowDefinitions="80,*"
           BackgroundColor="#1d1d1d">
         <StackLayout Orientation="Horizontal">
+            <StackLayout Orientation="Horizontal">
             <Image Source="flechaa1.png" />
-            
+            </StackLayout>
         </StackLayout>
         
     </Grid>

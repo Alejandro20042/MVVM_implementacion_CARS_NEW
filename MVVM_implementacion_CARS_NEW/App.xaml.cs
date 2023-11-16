@@ -13,7 +13,7 @@ namespace MVVM_implementacion_CARS_NEW
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new Listapokemon());
+            MainPage = new NavigationPage(new Registrarpokemon());
         }
 
         protected override void OnStart()
